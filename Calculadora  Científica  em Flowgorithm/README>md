@@ -1,0 +1,152 @@
+# 🧮 Calculadora Científica — Flowgorithm
+
+Uma calculadora científica desenvolvida em **Flowgorithm**, com o objetivo de praticar conceitos fundamentais de lógica de programação, estruturas condicionais, laços de repetição, operações matemáticas e entrada/saída de dados.
+
+## 📌 Sobre o projeto
+
+Este projeto consiste em uma calculadora científica executada através de um menu interativo no terminal do Flowgorithm.
+
+O usuário pode escolher entre **20 operações matemáticas**, informar os valores necessários e visualizar o resultado. O programa permanece em execução até que a opção `0 - Sair` seja selecionada.
+
+## ⚙️ Funcionalidades
+
+A calculadora possui as seguintes operações:
+
+| Opção | Operação               |
+| ----: | ---------------------- |
+|     1 | ➕ Soma                 |
+|     2 | ➖ Subtração            |
+|     3 | ✖️ Multiplicação       |
+|     4 | ➗ Divisão              |
+|     5 | 🔢 Potenciação         |
+|     6 | % Módulo               |
+|     7 | √ Raiz quadrada        |
+|     8 | Seno                   |
+|     9 | Cosseno                |
+|    10 | Tangente               |
+|    11 | Arco seno              |
+|    12 | Arco cosseno           |
+|    13 | Arco tangente          |
+|    14 | Logaritmo base 10      |
+|    15 | Logaritmo natural (Ln) |
+|    16 | Exponencial            |
+|    17 | Valor absoluto         |
+|    18 | Parte inteira          |
+|    19 | Sinal do número        |
+|    20 | Fatorial               |
+|     0 | 🚪 Sair                |
+
+## 🧠 Conceitos de programação utilizados
+
+Durante o desenvolvimento foram utilizados diversos conceitos básicos de lógica de programação:
+
+* Variáveis do tipo `Integer` e `Real`;
+* Entrada de dados com `input`;
+* Exibição de informações com `output`;
+* Estruturas condicionais `if/else`;
+* Operadores aritméticos;
+* Operadores relacionais e lógicos;
+* Estrutura de repetição `while`;
+* Estrutura de repetição `for`;
+* Funções matemáticas;
+* Validação de opções do menu;
+* Tratamento de divisão por zero;
+* Cálculo de fatorial através de um laço de repetição.
+
+## 🔄 Funcionamento
+
+Ao iniciar o programa, um menu com todas as operações disponíveis é apresentado:
+
+```text
+=== Calculadora Cientifica ===
+
+1:Soma | 2:Subtração | 3:Multiplicação | 4:Divisão | 5:Potência | 6:Módulo
+7:Raiz | 8:Seno | 9:Cosseno | 10:Tangente | 11:Asin | 12:Acos | 13:Atan
+14:Log10 | 15:Ln | 16:Exp | 17:Abs | 18:Int | 19:Sinal | 20:Fatorial
+0:Sair
+```
+
+O usuário escolhe uma operação informando um número entre `0` e `20`.
+
+Para operações que precisam de dois valores, como soma, subtração e potência, o programa solicita os valores **A** e **B**.
+
+Para operações que utilizam apenas um valor, como raiz quadrada, seno e fatorial, somente o valor **A** é solicitado.
+
+Após o cálculo, o resultado é apresentado na tela.
+
+## 🛡️ Validação
+
+O programa possui algumas validações para evitar entradas de operações inexistentes.
+
+Caso o usuário informe uma opção diferente de `0` a `20`, o programa apresenta:
+
+```text
+Opcao Invalida!
+```
+
+Também existe uma verificação para impedir **divisão por zero**:
+
+```text
+ERRO: Divisao por zero!
+```
+
+## 🔢 Exemplo de execução
+
+```text
+=== Calculadora Cientifica ===
+1:Soma | 2:Subtração | 3:Multiplicação | 4:Divisão | 5:Potência | 6:Módulo
+7:Raiz | 8:Seno | 9:Cosseno | 10:Tangente | 11:Asin | 12:Acos | 13:Atan
+14:Log10 | 15:Ln | 16:Exp | 17:Abs | 18:Int | 19:Sinal | 20:Fatorial
+0:Sair
+
+Escolha a operacao (0 a 20): 1
+
+Digite o valor de A: 10
+Digite o valor de B: 5
+
+=====> Resultado: 15
+```
+
+## 📂 Estrutura do projeto
+
+```text
+Calculadora-Cientifica/
+│
+├── calculadora_cientifica_Completa.fprg
+└── README.md
+```
+
+O arquivo `.fprg` contém o algoritmo desenvolvido no **Flowgorithm**.
+
+## ▶️ Como executar
+
+1. Instale o **Flowgorithm**.
+2. Faça o download ou clone este repositório.
+3. Abra o arquivo:
+
+```text
+calculadora_cientifica_Completa.fprg
+```
+
+4. Execute o algoritmo pelo Flowgorithm.
+5. Escolha uma das opções disponíveis no menu.
+6. Informe os valores solicitados.
+
+## 🎯 Objetivo acadêmico
+
+Este projeto foi desenvolvido como uma atividade prática para aplicar conhecimentos de **lógica de programação** e compreender melhor o funcionamento de estruturas fundamentais utilizadas no desenvolvimento de software.
+
+A calculadora também serve como exercício para trabalhar com operações matemáticas e estruturas de controle dentro do Flowgorithm.
+
+## 🚀 Tecnologias utilizadas
+
+* **Flowgorithm**
+* Lógica de Programação
+* Algoritmos
+* Operações Matemáticas
+
+---
+
+### 👨‍💻 Projeto
+
+Projeto desenvolvido para fins **acadêmicos e de aprendizado em programação**.
