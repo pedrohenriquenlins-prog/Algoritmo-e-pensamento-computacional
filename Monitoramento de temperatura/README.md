@@ -2,8 +2,8 @@
 
 ## 1. Identificação
 
-- **Aluno:** [SEU NOME]
-- **Disciplina:** Programação em C
+- **Aluno:** Pedro Henrique do Nascimento Lins
+- **Disciplina:** Algoritmos e Pensamento Computacional
 - **Professora:** Profa. Karla Sartin
 - **Título do projeto:** Sistema Inteligente de Monitoramento Industrial
 
@@ -128,8 +128,8 @@ desafio-monitoramento/
 - VS Code / terminal
 - Git e GitHub
 
-## 9. Verificação do repositório antes da entrega
+Foi escolhida uma combinação de while e do...while, pois cada estrutura atende melhor a uma parte diferente do algoritmo.
 
-Antes de enviar o trabalho no Blackboard, é necessário verificar se o repositório está acessível. Abra o link do GitHub em uma janela anônima ou em um navegador sem estar conectado à conta que criou o repositório.
+O do...while foi utilizado para definir e validar o limite de temperatura, garantindo que o usuário informe um valor válido antes de continuar o programa. Nesse caso, o teste da condição acontece depois da execução, o que permite solicitar o valor pelo menos uma vez e repetir a pergunta caso ele seja inválido.
 
-Também é importante conferir se o repositório contém o arquivo `monitoramento.c`, o `README.md` e a pasta `evidencias` com os testes.
+Já o while foi utilizado no monitoramento das temperaturas. A condição é verificada antes de cada nova leitura, permitindo que o programa continue recebendo temperaturas enquanto o monitoramento estiver ativo. O while também facilita o encerramento quando são identificadas 3 temperaturas consecutivas acima do limite.
